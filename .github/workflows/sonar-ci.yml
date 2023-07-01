@@ -5,8 +5,9 @@ on:
   push:
     branches:
       - master
-  pull_request:
-    types: [opened, synchronize, reopened]
+  # remove scanning on PRs
+  #pull_request:
+  #  types: [opened, synchronize, reopened]
   
 jobs:
   build:
