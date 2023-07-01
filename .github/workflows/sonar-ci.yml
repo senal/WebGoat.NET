@@ -1,7 +1,7 @@
 name: SonarCloud
 on:
   schedule:
-  - cron: "*/5 0 * * *"
+  - cron: "*/5 * * * *"
   push:
     branches:
       - master
